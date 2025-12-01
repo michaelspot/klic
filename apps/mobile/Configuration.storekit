@@ -1,0 +1,157 @@
+{
+  "identifier" : "E7B4A8D2",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "fr_FR",
+    "_storefront" : "FRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptions" : [
+    {
+      "adHocOffers" : [
+
+      ],
+      "codeOffers" : [
+
+      ],
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "groupNumber" : 1,
+      "internalID" : "6737178249",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Abonnement hebdomadaire à ThisMoment Premium",
+          "displayName" : "Premium Hebdomadaire",
+          "locale" : "fr_FR"
+        },
+        {
+          "description" : "Weekly subscription to ThisMoment Premium",
+          "displayName" : "Premium Weekly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "premium_weekly",
+      "recurringSubscriptionPeriod" : "P1W",
+      "referenceName" : "Premium Weekly",
+      "subscriptionGroupID" : "21534009",
+      "type" : "RecurringSubscription"
+    },
+    {
+      "adHocOffers" : [
+
+      ],
+      "codeOffers" : [
+
+      ],
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "groupNumber" : 1,
+      "internalID" : "6737178587",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Abonnement mensuel à ThisMoment Premium",
+          "displayName" : "Premium Mensuel",
+          "locale" : "fr_FR"
+        },
+        {
+          "description" : "Monthly subscription to ThisMoment Premium",
+          "displayName" : "Premium Monthly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "premium_monthly",
+      "recurringSubscriptionPeriod" : "P1M",
+      "referenceName" : "Premium Monthly",
+      "subscriptionGroupID" : "21534009",
+      "type" : "RecurringSubscription"
+    },
+    {
+      "adHocOffers" : [
+
+      ],
+      "codeOffers" : [
+
+      ],
+      "displayPrice" : "39.99",
+      "familyShareable" : false,
+      "groupNumber" : 1,
+      "internalID" : "6737178802",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Abonnement annuel à ThisMoment Premium",
+          "displayName" : "Premium Annuel",
+          "locale" : "fr_FR"
+        },
+        {
+          "description" : "Yearly subscription to ThisMoment Premium",
+          "displayName" : "Premium Yearly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "premium_yearly",
+      "recurringSubscriptionPeriod" : "P1Y",
+      "referenceName" : "Premium Yearly",
+      "subscriptionGroupID" : "21534009",
+      "type" : "RecurringSubscription"
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

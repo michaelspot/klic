@@ -1,0 +1,89 @@
+{
+  "expo": {
+    "name": "Klic",
+    "slug": "klic",
+    "scheme": "klic",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.charlyklopfenstein.thismoment",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "L'application a besoin d'accéder à votre appareil photo pour vous permettre de prendre des photos directement dans l'application afin de créer vos montages photobooth.",
+        "NSPhotoLibraryUsageDescription": "L'application a besoin d'accéder à votre bibliothèque de photos pour vous permettre de sélectionner et d'importer des images existantes dans vos créations.",
+        "NSPhotoLibraryAddUsageDescription": "L'application a besoin de cette permission pour sauvegarder vos créations finales et montages photo directement dans la galerie de votre appareil.",
+        "CFBundleDisplayName": "Klic",
+        "CFBundleLocalizations": [
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt"
+        ]
+      },
+      "appleTeamId": "LV876F5G97"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.charlyklopfenstein.thismoment"
+    },
+    "plugins": [
+      "./plugins/withAppNameLocalization",
+      [
+        "expo-router",
+        {
+          "sitemap": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-audio",
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-video"
+    ],
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false,
+        "sitemap": false
+      },
+      "eas": {
+        "projectId": "d28870dd-9a0c-43f2-a0f9-363febc057de"
+      }
+    },
+    "runtimeVersion": "1.0.1"
+  }
+}
