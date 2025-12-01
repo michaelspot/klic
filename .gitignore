@@ -4,3 +4,4 @@ node_modules
 apps/.DS_Store
 assets/
 
+apps/mobile/caches/
